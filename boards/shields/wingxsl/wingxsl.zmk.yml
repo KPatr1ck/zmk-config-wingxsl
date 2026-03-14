@@ -1,0 +1,11 @@
+file_format: "1"
+id: wingxsl
+name: wingxsl
+type: shield
+url: https://github.com/jimmerricks/swoop
+requires: [nice_nano]
+features:
+  - keys
+siblings:
+  - wingxsl_left
+  - wingxsl_right
