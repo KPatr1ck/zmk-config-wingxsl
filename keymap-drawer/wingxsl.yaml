@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: wingxsl}
 layers:
-  default:
+  BASE:
   - $$mdi:keyboard-tab$$
   - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
   - W
@@ -86,7 +86,7 @@ layers:
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - default
+  - BASE
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
