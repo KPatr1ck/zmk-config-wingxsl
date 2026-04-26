@@ -10,6 +10,94 @@
 #include <dt-bindings/zmk/outputs.h>
 
 / {
+    combos {
+        compatible = "zmk,combos";
+
+        ParaLeft {
+            bindings = <&kp LEFT_PARENTHESIS>;
+            key-positions = <7 8>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        ParaRight {
+            bindings = <&kp RIGHT_PARENTHESIS>;
+            key-positions = <9 10>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        BrakLeft {
+            bindings = <&kp LEFT_BRACKET>;
+            key-positions = <31 32>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        BrakRight {
+            bindings = <&kp RIGHT_BRACKET>;
+            key-positions = <33 34>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        Enter {
+            bindings = <&kp ENTER>;
+            key-positions = <19 20>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        Tab {
+            bindings = <&kp TAB>;
+            key-positions = <13 14>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        Esc {
+            bindings = <&kp ESCAPE>;
+            key-positions = <1 2>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        Quote {
+            bindings = <&kp SINGLE_QUOTE>;
+            key-positions = <21 22>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        Colon {
+            bindings = <&kp COLON>;
+            key-positions = <15 16>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        Ctrl_A {
+            bindings = <&kp LC(A)>;
+            key-positions = <27 13>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        Ctrl_Z {
+            bindings = <&kp LC(Z)>;
+            key-positions = <27 25>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+
+        Ctrl_Q {
+            bindings = <&kp LC(Q)>;
+            key-positions = <27 1>;
+            slow-release;
+            timeout-ms = <50>;
+        };
+    };
+
     keymap {
         compatible = "zmk,keymap";
 
