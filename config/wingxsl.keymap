@@ -120,7 +120,7 @@
             bindings = <
 &kp ESCAPE  &trans  &trans          &kp UP_ARROW    &trans           &trans  &kp C_VOL_DN   &kp C_VOL_UP  &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC  &out OUT_TOG   &bt BT_SEL 0
 &trans      &trans  &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &kp GRAVE      &kp INS       &kp HOME              &kp PAGE_UP           &kp BACKSPACE  &bt BT_SEL 1
-&trans      &trans  &trans          &trans          &trans           &trans  &kp BACKSLASH  &kp DEL       &kp END               &kp PAGE_DOWN         &trans         &bt BT_NXT
+&mo 4       &trans  &trans          &trans          &trans           &trans  &kp BACKSLASH  &kp DEL       &kp END               &kp PAGE_DOWN         &trans         &bt BT_NXT
                     &trans          &trans          &kp LCTRL        &trans  &trans         &trans        &mo 3                 &trans
             >;
         };
@@ -129,7 +129,7 @@
             bindings = <
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp NUMBER_4  &kp N5  &kp NUMBER_6  &kp N7  &kp N8  &kp N9     &kp N0     &trans
 &trans  &trans        &trans        &trans        &trans        &trans  &trans        &trans  &trans  &kp MINUS  &kp EQUAL  &trans
-&trans  &trans        &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans     &trans     &trans
+&trans  &trans        &trans        &trans        &trans        &trans  &trans        &trans  &trans  &trans     &trans     &mo 4
                       &trans        &mo 3         &trans        &trans  &trans        &trans  &trans  &trans
             >;
         };
@@ -143,12 +143,12 @@
             >;
         };
 
-        layer_4 {
+        BL {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-                &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &bootloader  &bootloader  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &sys_reset   &sys_reset   &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans  &trans  &trans
+                &trans  &trans  &trans  &trans       &trans       &trans  &trans  &trans
             >;
         };
 
