@@ -36,61 +36,61 @@ layers:
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - {t: /, s: '?'}
-  - $$mdi:apple-keyboard-shift$$
+  - $$mdi:apple-keyboard-caps$$
   - $$mdi:keyboard-esc$$
-  - '1'
+  - NAV
   - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:apple-keyboard-option$$
   - $$mdi:keyboard-space$$
-  - '2'
+  - NUM
   - {t: '$$mdi:keyboard-return$$', type: enter}
-  '1':
-  - $$mdi:keyboard-tab$$
-  - {t: '1', s: '!'}
-  - {t: '2', s: '@'}
-  - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - {t: '0', s: )}
+  NAV:
+  - $$mdi:keyboard-esc$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-up-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:volume-low$$
+  - $$mdi:volume-high$$
+  - $$mdi:brightness-7$$
+  - $$mdi:brightness-5$$
+  - {t: '$$mdi:toggle-switch$$', h: '$$mdi:bluetooth$$', s: '$$mdi:usb$$'}
+  - {h: '1', s: '$$mdi:bluetooth-connect$$'}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '$$mdi:transfer$$', type: trans}
+  - $$mdi:arrow-left-bold$$
+  - $$mdi:arrow-down-bold$$
+  - $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:transfer$$', type: trans}
+  - {t: '`', s: '~'}
+  - INS
+  - HOME
+  - PgUp
   - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - AC REFRESH
-  - AL CALCULATOR
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '[', s: '{'}
-  - {t: ']', s: '}'}
-  - {t: '-', s: _}
-  - {t: '=', s: +}
+  - {h: '2', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {t: \, s: '|'}
+  - $$mdi:backspace-reverse-outline$$
+  - END
+  - PgDn
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {h: '$$mdi:arrow-down-bold$$', s: '$$mdi:bluetooth-connect$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - BASE
+  - $$mdi:apple-keyboard-control$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '2':
+  - FUNC
+  - {t: '$$mdi:transfer$$', type: trans}
+  NUM:
   - $$mdi:keyboard-esc$$
   - F1
   - F2
@@ -135,7 +135,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  '3':
+  FUNC:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -173,12 +173,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   '4':
   - {t: '$$mdi:transfer$$', type: trans}
