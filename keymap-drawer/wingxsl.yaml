@@ -1,8 +1,8 @@
 layout: {zmk_keyboard: wingxsl}
 layers:
   default:
-  - $$mdi:keyboard-esc$$
-  - Q
+  - $$mdi:keyboard-tab$$
+  - {t: Q, h: '$$mdi:apple-keyboard-control$$'}
   - W
   - E
   - R
@@ -12,8 +12,8 @@ layers:
   - I
   - O
   - P
-  - {t: \, s: '|'}
-  - $$mdi:apple-keyboard-caps$$
+  - {t: '$$mdi:backspace$$', type: backspace}
+  - $$mdi:apple-keyboard-control$$
   - A
   - S
   - D
@@ -24,8 +24,8 @@ layers:
   - K
   - L
   - {t: ;, s: ':'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
-  - $$mdi:apple-keyboard-shift$$
+  - .
+  - $$mdi:apple-keyboard-command$$
   - Z
   - X
   - C
@@ -37,14 +37,14 @@ layers:
   - {t: ., s: '>'}
   - {t: /, s: '?'}
   - $$mdi:apple-keyboard-shift$$
-  - $$mdi:apple-keyboard-control$$
-  - LGUI
-  - {t: '$$mdi:keyboard-space$$', h: '1'}
+  - $$mdi:keyboard-esc$$
+  - '1'
+  - $$mdi:apple-keyboard-shift$$
   - $$mdi:apple-keyboard-option$$
-  - AL MY COMPUTER
-  - {t: '$$mdi:keyboard-space$$', h: '2'}
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - RGUI
+  - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
+  - '2'
+  - {t: '$$mdi:keyboard-return$$', type: enter}
   '1':
   - $$mdi:keyboard-tab$$
   - {t: '1', s: '!'}
@@ -83,8 +83,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - default
   - {t: '$$mdi:transfer$$', type: trans}
@@ -132,8 +132,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   '3':
   - {t: '$$mdi:transfer$$', type: trans}
