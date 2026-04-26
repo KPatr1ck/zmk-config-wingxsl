@@ -270,3 +270,28 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
+combos:
+- p: [7, 8]
+  k: (
+- p: [9, 10]
+  k: )
+- p: [31, 32]
+  k: {t: '[', s: '{'}
+- p: [33, 34]
+  k: {t: ']', s: '}'}
+- p: [19, 20]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
+- p: [13, 14]
+  k: $$mdi:keyboard-tab$$
+- p: [1, 2]
+  k: $$mdi:keyboard-esc$$
+- p: [21, 22]
+  k: {t: '''', s: '"'}
+- p: [15, 16]
+  k: ':'
+- p: [27, 13]
+  k: Ctl+A
+- p: [27, 25]
+  k: Ctl+Z
+- p: [27, 1]
+  k: Ctl+Q
